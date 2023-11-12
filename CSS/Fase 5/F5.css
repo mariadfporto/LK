@@ -1,0 +1,142 @@
+body{
+    background-image: url("../../Imagens/background.jpg");
+    background-size: cover;
+
+}
+
+img{
+    padding: 1.5% 1%;
+    float: left;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #000;
+    padding: 0;
+}
+
+@media only screen and (max-width: 715px){
+.topnav {
+    overflow: hidden;
+    padding: 3%;
+}
+}
+.title-game{ 
+    color: #000000;
+    font-size: 34px;
+    font-family: "Catamaran";
+    float: left;
+    font-weight: bold;
+    padding: 1.7% 0.1%;
+    text-decoration: none;
+    }  
+
+
+@media only screen and (max-width: 715px){
+    .title-game{ 
+        
+        font-size: 25px;
+        font-family: "Catamaran";
+        float: left;
+        font-weight: bold;
+        padding: 3% 3%;
+    }  
+}
+
+.card-story{
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 2%;
+    margin: 3% 21%; 
+    padding: 1% 1.5% 2%;
+    font-family: "Catamaran";
+    font-weight: normal;
+    font-size: 20px;
+} 
+
+@media only screen and (max-width: 715px){
+    .card-story{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    font-family: "Catamaran";
+    font-weight: normal;
+    margin: 5% 4%;
+    } 
+}
+
+.title-card{
+    margin: 2%;
+    font-size: 34px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.strong-text {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 715px){
+    .title-card{
+        color: white;
+        font-weight: bold;
+    }
+    }
+
+#button {
+    display: inline-block;
+    padding: 1% 8%;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    font-size: 13px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #000;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 3px #666;
+}
+
+
+@media only screen and (max-width: 715px){
+    #button{
+        padding: 4% 2%;
+        margin: 5% 15%;
+        
+    }
+}
+
+#button:hover {background-color: white}
+
+#button:hover {
+    background-color: white;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(187,10,30, 0.8);
+    color: #000;
+    text-align: center;
+    padding: 0.5%;
+    margin-top: 10.6%;
+    font-family: "Catamaran";
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 715px){
+    .footer{
+    background-color: rgb(0, 0, 0);
+    color: #bb0a1e;
+    }
+}

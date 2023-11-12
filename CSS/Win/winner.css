@@ -1,0 +1,133 @@
+body{
+    background-image:  url("../../Imagens/background.jpg");
+    background-size: cover;
+}
+
+img{
+    padding: 1.5% 1%;
+    float: left;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #000;
+    padding: 0;
+}
+
+@media only screen and (max-width: 715px){
+.topnav {
+    overflow: hidden;
+    padding: 3%;
+}
+}
+
+.title-game{ 
+    color: #000000;
+    font-size: 34px;
+    font-family: "Catamaran";
+    float: left;
+    font-weight: bold;
+    padding: 1.7% 0.1%;
+    text-decoration: none;
+    }  
+
+
+@media only screen and (max-width: 715px){
+    .title-game{ 
+        
+        font-size: 25px;
+        font-family: "Catamaran";
+        float: left;
+        font-weight: bold;
+        padding: 3% 3%;
+    }  
+}
+
+
+.card{
+    background-color: rgba(255, 255, 255, 0.733);
+    margin: 6% 15% 0 15%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 70px;
+    padding: 2%;
+    color: #FFD700;
+    }
+
+@media only screen and (max-width: 750px){
+    .titulo{
+        font-size: 50px;
+    }
+}
+
+.text{
+    font-size: 25px;
+    padding: 0 2% 5% 2%;
+    color: rgb(0, 0, 0);
+}
+
+@media only screen and (max-width: 750px){
+    .text{
+        font-size: 20px;
+    }
+
+}
+
+.restart{
+    font-size: 40px;
+    padding: 0 2% 5% 2%;
+    color: #bb0a1e;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 750px){
+    .restart{
+        font-size: 30px;
+    }
+
+}
+
+.button{
+    font-size: 45px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding-bottom: 2%;
+
+}
+
+@media only screen and (max-width: 750px){
+    .button{
+        font-size: 25px;
+    }
+
+}
+
+.button:hover{
+    text-decoration: underline wavy #FFD700;
+    
+
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(187,10,30, 0.8);
+    color: #000;
+    text-align: center;
+    padding: 0.5%;
+    margin-top: 10.9%;
+    font-family: "Catamaran";
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 715px){
+    .footer{
+    background-color: rgb(0, 0, 0);
+    color: #bb0a1e;
+    }
+}
